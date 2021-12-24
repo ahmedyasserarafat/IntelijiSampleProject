@@ -25,7 +25,7 @@ class EmailValidatorTest {
     @DisplayName("Testing the Email Validator Test False Method")
     @Test
     void test2() {
-        Assertions.assertFalse(em.test("aaa.com"));
+        Assertions.assertFalse(em.test("aaajj.com"));
     }
 
 }
